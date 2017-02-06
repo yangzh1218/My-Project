@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="before you associate a camera to existing Wifi AP using a mobile phone ,you need to click &apos;Set&apos; button twice in the lookever camera"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please switch to the current Wifi want to configure Wi-Fi \ n in Wi-Fi camera configuration process, do not switch Wi-Fi"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_step1"
+                android:layout_marginTop="20dip"
+                  android:textColor="@color/black" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1:WiFi Direct wifi setting" />
+            
+            <TextView
+                android:id="@+id/tv_step2"
+                  android:textColor="@color/black" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step2:Multicast device ID" />
+            
+            <TextView
+                android:id="@+id/tv_step3"
+                  android:textColor="@color/black" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step3: Bind Set Seed" />
+            
+            <TextView
+                android:id="@+id/tv_step4"
+                  android:textColor="@color/black" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step4: Query Bind Result" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

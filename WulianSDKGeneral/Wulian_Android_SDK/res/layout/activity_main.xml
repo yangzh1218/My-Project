@@ -1,0 +1,244 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/mainframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please input the appName(you can get it from the wulian company) 8in The Manifest before you integrated the sdk into your app.If you input invalid value,all IPC function in your  app that integrated this IPC sdk will not work after a period of time"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description: The first step: landing Web accountor gateway ID account  (required) ; the second step: initialize sip Sip account and registration (required); the third step: Get the equipment list (must be able to simultaneously and second step); Step four: View the video or configure (the second step must wait for success, otherwise the second step operation again)"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bt_connect_and_bind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Config WiFi AP and bind cam ,and something else" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Wulian Account Login"
+            android:textColor="#00ff00"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Web account login"
+                android:textColor="#00ff00" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="UserName:"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Please enter a Web account user name, such as (test)"
+                    android:inputType="text"
+                    android:text="yz666" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Password:"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Please enter a Web account password, such as (test)"
+                    android:inputType="text"
+                    android:text="qweasd" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="GatewayID Login"
+            android:textColor="#00ff00" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GatewayID:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/et_gatewayID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Please enter  the gateway ID, such as (50294d401111)"
+                android:inputType="text"
+                android:text="50294D402B49" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Password:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/et_gatewayPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Please enter a gateway ID account password, such as (401111)"
+                android:inputType="text"
+                android:text="402B49" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_web_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The first step: \n Login Web Account"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_gatewayID_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="The first step :\n Login With gateway ID Login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_init"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Step Two: Initialize sip" />
+
+            <Button
+                android:id="@+id/bt_userLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="The last step: Logout Web  account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_registerAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="The third step: Sign Sip account" />
+
+            <Button
+                android:id="@+id/bt_unregisterAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Sip account logout" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_devicelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Step Four: Get Device List" />
+        <EditText 
+	    android:id="@+id/et_smart_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="Input password"
+	    />
+	<Button 
+	    android:id="@+id/btn_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="change Password"/>
+
+        <ListView
+            android:id="@+id/lv_devices"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:dividerHeight="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

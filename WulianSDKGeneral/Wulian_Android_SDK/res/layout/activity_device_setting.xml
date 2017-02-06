@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_devivemeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please input device name" />
+
+    <Button
+        android:id="@+id/btn_change_device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chanage Device Name"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_unbind_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Device"
+        android:textColor="@color/black" />
+    <Button 
+        android:id="@+id/bt_ConfigMovementDetection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Config_Movement_Detection"
+        android:textColor="@color/black"
+        />
+    <Button 
+        android:id="@+id/bt_ConfigLinkageArming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Config_Linkage_Arming"
+        android:textColor="@color/black"
+        />
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Device Share"
+	    android:textColor="@color/green"
+	    />
+	<EditText 
+	    android:id="@+id/et_share_username"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="Input username or gateway ID"
+	    />
+	<Button 
+	    android:id="@+id/btn_share"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Share Device"
+	    />
+	<EditText 
+	    android:id="@+id/et_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="Input password"
+	    />
+	<Button 
+	    android:id="@+id/btn_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="change Password"/>
+	<Button 
+	    android:id="@+id/btn_bell_wake"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Wake the device"/>
+	<Button 
+	    android:id="@+id/btn_bell_sleep"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Sleep the device"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Version complete"
+        android:textColor="@color/green" />
+
+    <CheckBox
+        android:id="@+id/cb_led"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/cb_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WulianICamDemo</string>
+    <string name="common_loading">Loading…</string>
+    <string name="login_user_account_register_fail">User account registering, please wait…</string>
+    <string name="replay_one_people_to_see">Allowing only one person to watch look back</string>
+    <string name="replay_fetching_videos">Fetching videos~</string>
+     <string name="replay_request_timeout">Request timeout</string>
+     <string name="replay_no_video_in_sdcard">No SD card recording history</string>
+     <string name="common_none_account">Unknown error</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_process_failed">Operation failed!</string>
+    <string name="main_process_success">Operation succeeded!</string>
+    <string name="replay_moving_through_time">Moving through time~</string>
+    <string name="common_today">Today</string>
+    <string name="replay_no_video_selected_period">No history recording the selected time period</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="setting_device_version_past">Can be updated</string>
+    <string name="setting_latest_fireware">Current device firmware is the latest</string>
+    <string name="setting_device_version_newest">Latest version</string>
+    <string name="setting_update_now">Update Now</string>
+    <string name="setting_update_later">Update later</string>
+    <string name="sip_processing_waiting">Processing, please wait&#8230;</string>
+    <string name="sip_unauthorized">Fail to watch, relogin after logout(401)</string>
+    <string name="sip_offline">Device offline(404)</string>
+    <string name="sip_server_not_found">Device offline(404)</string>
+    <string name="sip_proxy_authentication_required">Proxy authentication required(407)</string>
+    <string name="sip_request_timeout">Request timeout(408)</string>
+    <string name="sip_device_busy">Fail to watch, please ensure network runs smoothly(486)</string>
+    <string name="sip_request_terminated">Request terminated(487)</string>
+    <string name="sip_service_unavailable">Service unavailable(503)</string>
+    <string name="sip_serve_error">Service error</string>
+    <string name="sip_init_waiting">Connecting, please wait&#8230;</string>
+    <string name="main_cmic01name">iCam</string>
+    <string name="main_cmic03name">Lookever camera</string>
+    <string name="main_cmic02name">Outdoor camera</string>
+    <string name="common_icam">iCam</string>
+    <string name="common_icam_type_01">iCam camera</string>
+    <string name="common_icam_type_03">Lookever camera</string>
+    <string name="common_icam_type_02">Outdoor camera</string>
+    <string name="common_icam_type_04">iCam camera 02 type</string>
+    <string name="common_icam_type_05">Lookever camera night</string>
+    <string name="common_icam_type_06">DeskTop camera</string>
+    <string name="common_icam_type_none">Unsupported devices</string>
+    <!-- Error message -->
+    <string name="socket_invalid_io">Invalid Request</string>
+    <string name="connect_wifi_first">Please connect Wi-Fi first</string>
+    <string name="no_network">No network, please check network</string>
+    <string name="exception_flight_mode">Flight mode</string>
+    <string name="error_no_sdcard">No SD-Card</string>
+    <string name="exception_file_exist">File already exists</string>
+    <string name="exception_invalid_request">Invalid Request</string>
+    <string name="exception_500">Server Error</string>
+    <string name="exception_502">Server maintenance, retry later</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="exception_1001">please check your phone time</string>
+    <string name="exception_1002">Invalid string length</string>
+    <string name="exception_1006">No record of the equipment</string>
+    <string name="exception_1010">More than limit</string>
+    <string name="exception_1100">Lack necessary parameters</string>
+    <string name="exception_1102">Invalid Model/App</string>
+    <string name="exception_1103">Invalid Resource</string>
+    <string name="exception_1104">Invalid Type</string>
+    <string name="exception_1105">Invalid Email</string>
+    <string name="exception_1106">Invalid device id</string>
+    <string name="exception_1108">Invalid websites</string>
+    <string name="exception_1110">Invalid username</string>
+    <string name="exception_1111">Invalid user or password</string>
+    <string name="exception_1126">please logout and relogin</string>
+    <string name="exception_2000">The user name is already binded</string>
+    <string name="exception_2020">Process fail</string>
+    <string name="exception_2021">Unauthorized device</string>
+
+</resources>
